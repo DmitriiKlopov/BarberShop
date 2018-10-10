@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+	<meta charset="UTF-8">
+	<title>Барбершоп "Борода"</title>
+	<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<header class="main-header">
+  		<div class="container">
+  		  <nav class="main-navigation">
+  			<ul>
+  				<li>
+  				  <a href="#">Информация</a>
+  				</li>
+  				<li>
+  				  <a href="#">Новости</a>
+  				</li>
+  				<li>
+  				  <a href="#">Прайс-лист</a>
+  				</li>
+  				<li>
+  				  <a href="#">Магазин</a>
+  				</li>
+  				<li>
+  				  <a href="#">Контакты</a>
+  				</li>
+  			</ul>
+  		  </nav>
+		  <div class="user-block">
+		  	<a href="#" class="login" >Вход</a>
+		  </div>	
+  		</div> 
+  	</header>
+	<main class="container">
+    <h1>Средства для ухода</h1>
+    <ul class="item">
+      <li>Главная</li>
+      <li>Магазин</li>
+      <li selected>Средства для ухода</li>
+    </ul>
+    <nav class="view">
+      <form method="post" action="input5.php">
+        <h2>Производители</h2>
+          <p><input type="checkbox" name="option1" value="a1" checked>Baxter of California<br>
+          <input type="checkbox" name="option2" value="a2">Mr Natty<Br>
+          <input type="checkbox" name="option3" value="a3" checked>Suavecito<br> 
+          <input type="checkbox" name="option4" value="a4">Malin+Goetz<br> 
+          <input type="checkbox" name="option5" value="a5">Murray's<br>
+          <input type="checkbox" name="option5" value="a6" checked>American Crew</p>
+      <section class="group">
+        <h2>Группы товаров:</h2>
+        <button class="btn" type="submit">Показать</button>
+      </section>
+      </form>
+    </nav>
+    <div class="gallery-shop">
+          <figure class="gallery-shop-item">
+            <section>
+              <img src="images/photo1-1.jpg" width="164" height="220" alt="Фото1-1">
+              <p>
+                Набор для путешествий<br>
+                «Baxter of California»</p>
+              <form action="#" class="appointment-form" method="post">
+              <input type="hidden" name="price" value="" placeholder="2 900 руб.">
+           <button class="btn" type="submit">Купить</button>
+         </form>
+            </section>
+            <section>
+              <img src="images/photo2-1.jpg" width="164" height="220" alt="Фото2-1">
+              <p>
+                Увлажняющий кондиционер<br>
+                «Baxter of California»</p>
+              <form action="#" class="appointment-form" method="post">
+              <input type="hidden" name="price" value="" placeholder="750 руб.">
+           <button class="btn" type="submit">Купить</button>
+            </section>
+            <section>
+              <img src="images/photo3-1.jpg" width="164" height="220" alt="Фото3-1">
+              <p>
+                Гель для волос<br>
+                «Suavecito»</p>
+              <form action="#" class="appointment-form" method="post">
+              <input type="hidden" name="price" value="" placeholder="290 рублей">
+           <button class="btn" type="submit">Купить</button>
+            </section>
+            <section>
+              <img src="images/photo4-1.jpg" width="164" height="220" alt="Фото4-1">
+              <p>
+                Гель для укладки волос <br>
+                "American Crew"</p>
+              <form action="#" class="appointment-form" method="post">
+              <input type="hidden" name="price" value="" placeholder="500 руб.">
+           <button class="btn" type="submit">Купить</button>
+         </form>
+            </section>
+            <section>
+              <img src="images/photo5-1.jpg" width="164" height="220" alt="Фото5-1">
+              <p>
+                Гель для волос<br>
+                «American Crew»</p>
+              <form action="#" class="appointment-form" method="post">
+              <input type="hidden" name="price" value="" placeholder="300 руб.">
+           <button class="btn" type="submit">Купить</button>
+            </section>
+            <section>
+              <img src="images/photo6-1.jpg" width="164" height="220" alt="Фото6-1">
+              <p>
+                Набор для бритья<br>
+                «Baxter of California»</p>
+              <form action="#" class="appointment-form" method="post">
+              <input type="hidden" name="price" value="" placeholder="3 900 рублей">
+           <button class="btn" type="submit">Купить</button>
+            </section>
+          </figure>
+    </div>
+    <div>
+      <button class="btn gallery-shop-1">1</button>
+      <button class="btn gallery-shop-2">2</button>
+      <button class="btn gallery-shop-3">3</button>
+      <button class="btn gallery-shop-4">4</button>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <div class="container">
+      <section class="footer-contacts">
+        <p>
+          Барбершоп "Борода"<br>
+          Адрес: г. Москва, Б. Аэродромная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (495) 650-02-66 
+        </p>
+      </section>
+    <section class="footer-social">
+      <p>Давайте дружить</p>
+      <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+      <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+      <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+    </section>
+    <section class="footer-copyright">
+      <p>Разарботано:</p>
+      <a href="https://dimaklopoff@gmail.com" class="btn">Dima Klopov</a>
+    </section>
+    </div>
+  </footer>
+  </body>
+</html>
